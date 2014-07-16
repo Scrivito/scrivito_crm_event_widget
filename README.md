@@ -1,5 +1,8 @@
 # scrivito : CRM Event Widget
 
+[![Gem Version](https://badge.fury.io/rb/scrivito_crm_event.svg)](http://badge.fury.io/rb/scrivito_crm_event)
+[![Code Climate](https://codeclimate.com/github/gertimon/scrivito_crm_event.png)](https://codeclimate.com/github/gertimon/scrivito_crm_event)
+
 A Widget for Scrivito and Infopark CRM.
 
 ## Installation
