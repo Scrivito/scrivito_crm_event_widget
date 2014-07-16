@@ -1,0 +1,33 @@
+<div class="crm_event" itemsope="<%= true %>" itemtype="https://schema.org/Event">
+  <h4 itemprop="name">
+    <%= widget.event_title %>
+  </h4>
+  <div class="date">
+    <div class="start" content="<%= widget.crm_event_obj.dtstart_at %>" itemprop="startDate">
+      <div class="title">
+        Start
+      </div>
+      <div class="value">
+        <%= widget.start_time %>
+      </div>
+    </div>
+    <div class="end" content="<%= widget.crm_event_obj.dtend_at %>" itemprop="endDate">
+      <div class="title">
+        Ende
+      </div>
+      <div class="value" content="<%= widget.crm_event_obj.dtend_at %>" itemprop="endDate">
+        <%= widget.end_time %>
+      </div>
+    </div>
+  </div>
+  <% if widget.location? %>
+    <div class="location" itemprop="Location" itemscope="<%= true %>" itemtype="http://schema.org/Place">
+      <div class="title">
+        Ort
+      </div>
+      <div class="value" itemprop="name">
+        <%= widget.crm_event_obj.location %>
+      </div>
+    </div>
+  <% end %>
+</div>
