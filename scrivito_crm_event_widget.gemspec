@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.version     = ScrivitoCrmEventWidget::VERSION
   gem.authors     = ["Gert Geidel"]
   gem.email       = ["gert.geidel@infopark.de"]
-  gem.homepage    = "http://www.gertimon.de"
+  gem.homepage    = "https://github.com/gertimon/scrivito_crm_event_widget"
   gem.summary     = "Scrivito CRM Event Widget"
   gem.description = "Scrivito CRM Event Widget"
   gem.license     = "MIT-License"
