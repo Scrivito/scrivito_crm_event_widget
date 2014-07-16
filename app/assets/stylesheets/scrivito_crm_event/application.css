@@ -1,28 +1,25 @@
 .crm_event {
   margin: 10px 0;
-  h4 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #b51528;
-  }
-  .date {
-    .title {
-      font-weight: bold;
-      border: none;
-      margin: 0;
-    }
-    .value {
+}
+.crm_event h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #b51528;
+}
+.crm_event .date .title {
+  font-weight: bold;
+  border: none;
+  margin: 0;
+}
+.crm_event .date .value {
       margin-bottom: 10px;
     }
   }
-  .location {
-    .title {
-      font-weight: bold;
-      border: none;
-      margin: 0;
-    }
-    .value {
-      margin-bottom: 10px;
-    }
-  }
+.crm_event .location .title {
+  font-weight: bold;
+  border: none;
+  margin: 0;
+}
+.crm_event .location .value {
+  margin-bottom: 10px;
 }
