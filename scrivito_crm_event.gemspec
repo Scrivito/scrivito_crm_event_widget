@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT-License"
 
   gem.files = Dir[
-    "{app,config,db,lib}/**/*",
+    "{app,lib,cms}/**/*",
     "MIT-LICENSE",
     "Rakefile",
     "README.rdoc"
