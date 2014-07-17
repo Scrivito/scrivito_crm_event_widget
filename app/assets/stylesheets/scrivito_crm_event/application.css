@@ -4,7 +4,6 @@
 .crm_event h4 {
   font-size: 18px;
   font-weight: bold;
-  color: #b51528;
 }
 .crm_event .date .title {
   font-weight: bold;
@@ -12,9 +11,9 @@
   margin: 0;
 }
 .crm_event .date .value {
-      margin-bottom: 10px;
-    }
-  }
+  margin-bottom: 10px;
+}
+
 .crm_event .location .title {
   font-weight: bold;
   border: none;

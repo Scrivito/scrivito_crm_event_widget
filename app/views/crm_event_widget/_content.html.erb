@@ -13,7 +13,7 @@
     </div>
     <div class="end" content="<%= widget.crm_event_obj.dtend_at %>" itemprop="endDate">
       <div class="title">
-        Ende
+        End
       </div>
       <div class="value" content="<%= widget.crm_event_obj.dtend_at %>" itemprop="endDate">
         <%= widget.end_time %>
@@ -23,7 +23,7 @@
   <% if widget.location? %>
     <div class="location" itemprop="Location" itemscope="<%= true %>" itemtype="http://schema.org/Place">
       <div class="title">
-        Ort
+        Location
       </div>
       <div class="value" itemprop="name">
         <%= widget.crm_event_obj.location %>
