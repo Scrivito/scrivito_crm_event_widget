@@ -15,6 +15,8 @@ Add this line to your application Stylesheet manifest:
 
     *= require scrivito_crm_event/application
 
+You also need a working connection to your Infopark CRM.
+
 And then execute:
 
     $ bundle

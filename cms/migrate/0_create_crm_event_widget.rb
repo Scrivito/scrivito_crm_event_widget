@@ -3,6 +3,7 @@ class CreateCrmEventWidget < ::Scrivito::Migration
     Scrivito::ObjClass.create(
       name: 'CrmEventWidget',
       type: 'publication',
+      is_binary: false,
       title: 'CRM Event',
       attributes: [
         {name: "event", type: "string"},
