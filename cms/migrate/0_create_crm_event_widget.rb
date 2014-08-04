@@ -1,6 +1,6 @@
 class CreateCrmEventWidget < ::Scrivito::Migration
   def up
-    create_obj_class(
+    Scrivito::ObjClass.create(
       name: 'CrmEventWidget',
       type: 'publication',
       title: 'CRM Event',
