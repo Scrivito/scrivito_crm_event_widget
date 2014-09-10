@@ -8,16 +8,18 @@ Gem::Specification.new do |gem|
   gem.platform    = Gem::Platform::RUBY
   gem.name        = "scrivito_crm_event"
   gem.version     = ScrivitoCrmEvent::VERSION
-  gem.authors     = ["Gert Geidel"]
-  gem.email       = ["gert.geidel@infopark.de"]
-  gem.homepage    = "https://github.com/gertimon/scrivito_crm_event"
+
+  gem.authors     = ["Scrivito"]
+  gem.email       = ["support@scrivito.com"]
+  gem.homepage    = "https://www.scrivito.com"
+
   gem.summary     = "Scrivito CRM Event Widget"
   gem.description = "Scrivito CRM Event Widget"
-  gem.license     = "MIT-License"
+  gem.license     = "LGPL-3.0"
 
   gem.files = Dir[
     "{app,lib,cms}/**/*",
-    "MIT-LICENSE",
+    "LICENSE",
     "Rakefile",
     "README.rdoc"
   ]
