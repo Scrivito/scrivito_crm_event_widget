@@ -1,5 +1,9 @@
 # Changelog: Scrivito CRM Event
 
+## 1.0.0
+
+* Change author to Scrivito
+
 ## 0.0.4
 
 * Thumbnail view corrected
