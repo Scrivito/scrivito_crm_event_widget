@@ -1,7 +1,7 @@
 # scrivito_crm_event_widget
 
 [![Gem Version](https://badge.fury.io/rb/scrivito_crm_event_widget.svg)](http://badge.fury.io/rb/scrivito_crm_event_widget)
-[![Code Climate](https://codeclimate.com/github/gertimon/scrivito_crm_event_widget.png)](https://codeclimate.com/github/gertimon/scrivito_crm_event_widget)
+[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_crm_event_widget/badges/gpa.svg)](https://codeclimate.com/github/Scrivito/scrivito_crm_event_widget)
 
 A Widget for Scrivito and Infopark CRM.
 
