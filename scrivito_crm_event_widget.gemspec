@@ -1,13 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "scrivito_crm_event/version"
+require "scrivito_crm_event_widget/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |gem|
   gem.platform    = Gem::Platform::RUBY
-  gem.name        = "scrivito_crm_event"
-  gem.version     = ScrivitoCrmEvent::VERSION
+  gem.name        = "scrivito_crm_event_widget"
+  gem.version     = ScrivitoCrmEventWidget::VERSION
 
   gem.authors     = ["Scrivito"]
   gem.email       = ["support@scrivito.com"]
@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.license     = "LGPL-3.0"
 
   gem.files = Dir[
-    "{app,lib,cms}/**/*",
+    "{app,lib,scrivito}/**/*",
     "LICENSE",
     "Rakefile",
     "README.rdoc"
