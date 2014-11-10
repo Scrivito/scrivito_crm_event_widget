@@ -20,9 +20,9 @@ You also need a working connection to your Infopark CRM.
 And then execute:
 
     $ bundle
-    $ rake cms:migrate:install
-    $ rake cms:migrate
-    $ rake cms:migrate:publish
+    $ rake scrivito:migrate:install
+    $ rake scrivito:migrate
+    $ rake scrivito:migrate:publish
 
 ## Changelog
 
