@@ -9,7 +9,7 @@ A Widget for Scrivito and Infopark CRM.
 
 Add this line to your application's `Gemfile`:
 
-    gem 'crm_event_widget'
+    gem 'scrivito_crm_event_widget'
 
 Add this line to your application Stylesheet manifest:
 

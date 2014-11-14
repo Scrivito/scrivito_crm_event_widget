@@ -1,5 +1,9 @@
 # Changelog: Scrivito CRM Event
 
+## 1.0.2
+
+* Fix naming from old kickstarter method
+
 ## 1.0.1
 
 * Rename to new naming convention
