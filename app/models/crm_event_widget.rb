@@ -1,4 +1,6 @@
 class CrmEventWidget < Widget
+  attribute :event, :string
+  attribute :overwrite_title, :string
 
   def crm_event
     self.event
@@ -8,8 +10,12 @@ class CrmEventWidget < Widget
     self.overwrite_title ? self.overwrite_title : crm_event_obj.title
   end
 
+  def self.events
+    Crm::Event.all.to_a
+  end
+
   def crm_event_obj
-    @event ||= Infopark::Crm::Event.find(crm_event)
+    @event ||= Crm::Event.find(crm_event)
   rescue # no crm event found or no event set
     nil
   end

@@ -1,5 +1,11 @@
-<h4>Title of Event to overwrite Title from CRM if needed</h4>
-<%= scrivito_tag(:div, widget, :overwrite_title) %>
+<%= scrivito_details_for 'Title of Event to overwrite Title from CRM if needed' do %>
+  <%= scrivito_tag(:div, widget, :overwrite_title) %>
+<% end %>
 
-<h4>Event ID from CRM</h4>
-<%= scrivito_tag(:div, widget, :event) %>
+<%= scrivito_details_for 'Event ID from CRM' do %>
+  <%= scrivito_toggle_button_editor widget, :event_id, CrmFormWidget.events do |event|
+    scrivito_tag(:button, widget, :event, data: {editor: 'scrivito-toggle-button', content: event.id}) do
+      event.title
+    end
+  end %>
+<% end %>
